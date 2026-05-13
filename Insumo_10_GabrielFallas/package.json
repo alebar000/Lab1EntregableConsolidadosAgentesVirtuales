@@ -1,0 +1,28 @@
+{
+	"name": "pf-3312-proyecto",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"capture:evidence": "node scripts/capture-evidence.mjs --url http://127.0.0.1:4173/",
+		"generate:audio:mac": "bash scripts/generate-audio-macos.sh",
+		"inspect:meta": "node scripts/extract-vrm-meta.mjs",
+		"inspect:visemes": "node scripts/check-visemes.mjs",
+		"verify:assets": "npm run inspect:meta && npm run inspect:visemes"
+	},
+	"dependencies": {
+		"@pixiv/three-vrm": "^3.4.0",
+		"three": "^0.179.1"
+	},
+	"devDependencies": {
+		"@gltf-transform/core": "^4.2.1",
+		"@types/three": "^0.184.1",
+		"playwright-core": "^1.59.1",
+		"typescript": "~6.0.2",
+		"vite": "^8.0.10"
+	}
+}
+

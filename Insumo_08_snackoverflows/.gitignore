@@ -1,0 +1,80 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build outputs commonly generated per target
+/[Ww]eb[Bb]uild/
+/[Ww]eb[Gg][Ll]Build/
+
+# Unity package/build artifacts
+*.apk
+*.aab
+*.unitypackage
+
+# Unity generated crash and diagnostics
+sysinfo.txt
+crashlytics-build.properties
+
+# Asset metadata should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Unity Package Manager / editor generated
+/[Aa]ssets/AssetStoreTools*
+[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Gradle
+.gradle/
+
+# Node / Firebase (functions)
+node_modules/
+/functions/node_modules/
+.firebase/
+/functions/.firebase/
+/functions/.runtimeconfig.json
+/functions/.env
+/functions/.env.*
+!/functions/.env.example
+/functions/.nyc_output/
+/functions/coverage/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+pubsub-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python bytecode / caches (for utility scripts inside Assets)
+__pycache__/
+*.py[cod]
